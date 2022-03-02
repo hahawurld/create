@@ -1,0 +1,6 @@
+*-debug.log
+*-error.log
+/.nyc_output
+/tmp
+/yarn.lock
+node_modules

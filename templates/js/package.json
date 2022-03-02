@@ -1,0 +1,23 @@
+{
+  "name": "@hahawurld/<%= name %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahawurld/<%= name %>.git"
+  },
+  "author": "",
+  "peerDependencies": {
+    "prettier": " >=2.1.2"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahawurld/<%= name %>/issues"
+  },
+  "homepage": "https://github.com/hahawurld/<%= name %>#readme"
+}

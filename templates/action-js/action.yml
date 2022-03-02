@@ -1,0 +1,6 @@
+name: '<%= name %>'
+description: '<%= description %>'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

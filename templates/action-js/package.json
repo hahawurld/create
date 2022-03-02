@@ -1,0 +1,22 @@
+{
+  "name": "@hahawurld/<%= name %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  },
+  "devDependencies": {
+    "@hahawurld/eslint-config": "^0.0.8",
+    "@hahawurld/prettier-config": "^1.0.6",
+    "@zeit/ncc": "^0.22.3",
+    "prettier": "^2.2.1"
+  }
+}

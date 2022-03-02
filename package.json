@@ -1,0 +1,69 @@
+{
+  "name": "@hahawurld/create",
+  "description": "An NPM initializer for hahawurld",
+  "version": "0.0.14",
+  "author": "Nic Wilson @nicolaslwilson",
+  "bin": {
+    "create": "bin/run"
+  },
+  "bugs": "https://github.com/hahawurld/create/issues",
+  "devDependencies": {
+    "@hahawurld/eslint-config-typescript": "^0.1.3",
+    "@hahawurld/prettier-config": "^1.0.6",
+    "@oclif/dev-cli": "^1.26.0",
+    "@types/ejs": "^3.0.6",
+    "@types/figlet": "^1.2.1",
+    "@types/fs-extra": "^9.0.8",
+    "@types/klaw-sync": "^6.0.0",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.35",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.9"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib",
+    "/templates"
+  ],
+  "homepage": "https://github.com/hahawurld/create",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "create"
+  },
+  "repository": "hahawurld/create",
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc.js",
+    "prepack": "rm -rf lib && tsc -b",
+    "test": "echo NO TESTS",
+    "postversion": "git push && git push --tags"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.2",
+    "ejs": "^3.1.6",
+    "enquirer": "^2.3.6",
+    "figlet": "^1.5.0",
+    "fs-extra": "^8.1.0",
+    "klaw-sync": "^6.0.0",
+    "lodash": "^4.17.21",
+    "tslib": "^1.14.1"
+  },
+  "prettier": "@hahawurld/prettier-config",
+  "volta": {
+    "node": "14.16.0",
+    "npm": "7.6.3"
+  }
+}
