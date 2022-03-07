@@ -41,6 +41,7 @@ class Create extends Command {
         name: 'template',
         message: 'What kind of project would you like to create?',
         choices: [
+          { message: 'TypeScript', name: 'ts' },
           { message: 'JavaScript', name: 'js' },
           { message: 'GitHub JavaScript Action', name: 'action-js' },
         ],
