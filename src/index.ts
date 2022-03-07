@@ -1,5 +1,5 @@
 import {Command, flags} from '@oclif/command'
-import * as Enquirer from 'enquirer';
+import Enquirer from 'enquirer';
 import { kebabCase } from 'lodash';
 
 import { generateProjectFromTemplate } from './templates';

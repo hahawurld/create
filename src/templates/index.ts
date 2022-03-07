@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 import * as ejs from 'ejs';
 import * as fse from 'fs-extra';
-import * as klawSync from 'klaw-sync';
+import klawSync from 'klaw-sync';
 import * as path from 'path';
 
 import { templatePath } from '../settings';
