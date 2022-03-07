@@ -1,7 +1,7 @@
 {
   "name": "@hahawurld/create",
   "description": "An NPM initializer for hahawurld",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Nic Wilson @nicolaslwilson",
   "bin": {
     "create": "bin/run"
