@@ -6,7 +6,7 @@ import { generateProjectFromTemplate } from './templates';
 import { printBanner } from './utils';
 
 const enquirer = new Enquirer();
-const templates = ['js', 'action-js'];
+const templates = ['js', 'action-js', 'ts'];
 
 class Create extends Command {
   static description = 'An NPM initializer for hahawurld projects'
